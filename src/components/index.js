@@ -18,7 +18,7 @@ const HistoryList = props => {
           <p className="domain-url">{domainUrl}</p>
         </div>
 
-        <button className="delete-icon" onClick={onDelete} type="button">
+        <button className="delete-icon" testid = "delete" onClick={onDelete} type="button">
           <img
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
             alt="delete"
